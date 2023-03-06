@@ -4,6 +4,8 @@ Sync a directory on a remote host: the `rsync-dir.sh` script copies all new/upda
 
 > IMPORTANT: the script requires `sshpass`. Make sure this module is installed on the local machine which executes the script, or install it with `sudo apt install sshpass`.
 
+> IMPORTANT: the script requires root permissions to run.
+
 ## Usage
 
 The path to a `.env` file must be provided to the command:
