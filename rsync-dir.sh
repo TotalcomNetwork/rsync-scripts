@@ -29,9 +29,10 @@ then
 	exit 1;
 fi
 
+mkdir -p $destination
+
 sshpass -p "$ssh_password" rsync  -e "ssh -p $ssh_port"\
         --recursive \
-        --mkpath \
         --update \
         --compress \
         --compress-level 9 \
