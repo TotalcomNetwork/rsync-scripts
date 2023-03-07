@@ -1,4 +1,8 @@
-# Rsyn Script
+# Rsync Scripts
+
+This is a collection of scripts to automate files and directories synchronization between a servers.
+
+## Rsync Dir
 
 Sync a directory on a remote host: the `rsync-dir.sh` script copies all new/updated files found in the given directory (on the remote host) to the destination directory on the local machine.
 
@@ -6,7 +10,7 @@ Sync a directory on a remote host: the `rsync-dir.sh` script copies all new/upda
 
 > IMPORTANT: the script requires root permissions to run.
 
-## Usage
+### Usage
 
 The path to a `.env` file must be provided to the command:
 
