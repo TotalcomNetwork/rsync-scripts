@@ -1,6 +1,6 @@
 # Rsync Scripts
 
-This is a collection of scripts to automate files and directories synchronization between a servers.
+This is a collection of scripts to automate files and directories synchronization between servers.
 
 ## Rsync Dir
 
